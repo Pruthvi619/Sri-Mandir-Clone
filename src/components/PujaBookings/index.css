@@ -1,0 +1,63 @@
+/* index.css */
+.puja-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.back-button {
+  align-self: flex-start;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.back-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.puja-container p {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.no-puja-booked {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.puja-logo {
+  width: 128px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.no-puja-booked h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.no-puja-booked p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.book-pooja-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #e68900;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}

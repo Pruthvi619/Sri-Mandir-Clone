@@ -1,0 +1,159 @@
+.Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+  height: 7vh;
+}
+
+.logo img {
+  height: 40px;
+  margin-right: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.language-selector {
+  display: flex;
+  align-items: center; /* Align items vertically in the center */
+  gap: 10px; /* Space between the select and the image */
+}
+
+.language-selector select {
+  font-size: 16px; /* Adjust font size as needed */
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #d3d3d3;
+}
+
+.profile {
+  width: 40px; /* Adjust width as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+.titles {
+  font-weight: bold;
+  color: orange;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.list-titles {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.Header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.language-selector {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.profile {
+  width: 40px;
+  cursor: pointer;
+}
+
+.popup {
+  position: absolute;
+  top: 80.1px; /* Adjust based on header height */
+  right: 20px; /* Adjust based on desired positioning */
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  z-index: 1000;
+  width: 300px;
+}
+
+.popup span {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.popup li:hover {
+  background-color: #f0f0f0;
+}
+
+.profile-text {
+  padding-left: 5px;
+  font-size: 16px;
+}
+.accounts-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.greetings {
+  color: #707070;
+  text-align: left;
+  padding: 0px;
+}
+.title {
+  font-weight: bold;
+  font-size: 12px;
+}
+.button {
+  background-color: #25d366;
+  color: white;
+  border-width: 0px;
+  width: 30px;
+  padding: 0px;
+  margin: 0px;
+}
+.support-card {
+  display: flex;
+  background-color: #f4f2f2;
+  border-radius: 10px;
+}
+.call-logo {
+  width: 27px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.contact-text {
+  text-align: left;
+  font-size: 12px;
+  margin-left: 5px;
+  padding-left: 10px;
+  font-weight: bold;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+.description {
+  color: #707070;
+  font-size: 11px;
+  font-weight: 300;
+  margin-bottom: 10px;
+  padding-top: 0px;
+}
+.contact-card {
+  background-color: #f4f2f2;
+  border-radius: 10px;
+  display: flex;
+  padding: 3px;
+  padding-left: 10px;
+  padding-right: 25px;
+}
+.contact-card-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+.contact-logo {
+  padding-right: 10px;
+}

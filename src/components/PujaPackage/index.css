@@ -1,0 +1,150 @@
+.container {
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #f8f8f8;
+  border-bottom: 1px solid #ddd;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.header nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+.language-button {
+  background-color: #ff8800;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.breadcrumbs {
+  margin: 20px 0;
+  font-size: 14px;
+  background-color: rgb(254 245 236);
+  padding: 5px;
+  margin: 0px;
+}
+
+.breadcrumbs a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.main-content {
+  display: flex;
+  padding: 20px;
+}
+
+.main-image {
+  width: 55%;
+  margin-right: 20px;
+}
+
+.content {
+  flex: 1;
+}
+
+.details p,
+.countdown p {
+  margin: 10px 0;
+}
+
+.timer {
+  display: flex;
+  gap: 5px;
+}
+
+.timer span {
+  background-color: #fde5c9;
+  color: orange;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.select-package {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #f8f8f8;
+  border-top: 1px solid #ddd;
+}
+
+.footer-nav a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.Devotees-count {
+  color: orange;
+  font-weight: bold;
+}
+
+.book-puja-cards-container {
+  padding: 10px;
+  display: flex;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.book-puja-cards {
+  border: 1px solid #ff8800;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 3px;
+  padding: 15px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+.circle-container {
+  display: flex;
+}
+.price {
+  color: #ff8800;
+  text-align: center;
+  margin: 0px;
+}
+.puja-type {
+  color: #ff8800;
+  text-align: center;
+  margin: 0px;
+}
+.per-person {
+  text-align: center;
+  margin: 0px;
+}
+.circle {
+  width: 50px;
+  height: 50px;
+  margin-top: 10px;
+  padding-top: 10p;
+}
+.button2 {
+  background-color: #25d366;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  border-radius: 11px;
+  font-weight: bold;
+  width: 100%;
+  border-style: none;
+}

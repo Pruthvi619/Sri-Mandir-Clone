@@ -1,0 +1,67 @@
+.HeroSection {
+  background-color: #ffecdb;
+}
+
+.HeroSection h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.items-container {
+  padding-top: 45px;
+}
+
+.store-buttons button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.app-preview img {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px 0;
+}
+
+.trust-info,
+.recognition {
+  font-size: 14px;
+  color: #888;
+}
+
+.logo {
+  margin-right: 10px;
+}
+
+.span-text {
+  color: orange;
+}
+.achievement-icon {
+  width: 30px;
+  text-align: left;
+  padding-top: 15px;
+}
+#mainTitle {
+  font-size: 15px;
+  font-weight: 300;
+  text-align: left;
+}
+.main-logo {
+  width: 90%;
+  margin-left: 153px;
+  padding-left: 130px;
+}
+
+.main-heading-container {
+  margin-top: 60px;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+.main-image-container {
+  margin-right: 50px;
+  padding-right: 50px;
+}
+
+.secondary-title {
+  text-align: left;
+}
